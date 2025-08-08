@@ -10,9 +10,17 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <img class="logo" src="./assets/logo.png" alt="Akin logo" />
+      <div class="logo">
+        <img
+          src="./assets/logo.png"
+          alt="Akin logo"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+        />
+        <span class="logo-fallback" style="display: none">AKIN</span>
+      </div>
       <div>
         <ul class="nav-links">
+          <!-- <li><a href="#about">Home</a></li> -->
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -21,7 +29,14 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <img class="logo" src="./assets/logo.png" alt="Akin logo" />
+      <div class="logo">
+        <img
+          src="./assets/logo.png"
+          alt="Akin logo"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+        />
+        <span class="logo-fallback" style="display: none">AKIN</span>
+      </div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -29,6 +44,7 @@
           <span></span>
         </div>
         <div class="menu-links">
+          <li><a href="#desktopnav" onclick="toggleMenu()">Home</a></li>
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>

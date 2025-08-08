@@ -196,11 +196,6 @@
     font-size: 1.25rem;
   }
   
-  .logo {
-    width: 20%;
-    height: 2.5rem;
-  }
-  
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
