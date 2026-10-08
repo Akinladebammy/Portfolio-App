@@ -80,4 +80,4 @@ No frontend framework is required.
 Clone the repository:
 
 ```bash
-git clone YOUR-PORTFOLIO-REPOSITORY-URL
+git clone https://github.com/Akinladebammy/Portfolio-App.git
