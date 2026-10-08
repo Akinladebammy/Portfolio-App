@@ -1,17 +1,83 @@
-# My personal Portfolio App
+# Bamgbose Akinlade — Portfolio
 
-I built a personal portfolio website using HTML, CSS, and JavaScript. This portfolio includes:
+Personal portfolio website for **Bamgbose Akinlade Hussein**, a Software Engineer and First Class Computer Science graduate with interests in software engineering, artificial intelligence, machine learning and reinforcement learning.
 
-✔ An "About Me" section
-✔ A "Skills" section to highlight my expertise
-✔ A "Projects" section to showcase my work
-✔ A "Contact" form for easy communication
+## Portfolio
 
-Git Command I used:
+The website showcases:
 
-- git init - Initializes a new Git repository in your current project folder
-- git status - Shows which files have been changed, added, or are untracked
-- git add . - Stages all changes (new, modified, or deleted files) to be committed
-- git commit -m "" - Commits the staged changes and saves a snapshot of the current project state
-- git remote add origin https://github.com/... - Adds a remote named origin pointing to your GitHub repo
-- git push -u origin master - Pushes your local master branch to the origin remote
+- Professional software engineering experience
+- Backend and frontend development skills
+- AI and machine learning experience
+- Deep reinforcement learning research project
+- Selected software projects
+- Education and awards
+- Contact information
+
+## Featured Project
+
+### PPO Platformer — Deep Reinforcement Learning
+
+I built a deterministic Mario-style platformer from scratch using Python and Pygame and wrapped it as a Gymnasium reinforcement-learning environment.
+
+A PPO agent was trained using Stable-Baselines3 and PyTorch.
+
+Headline result:
+
+- PPO agent: **100% completion**
+- Random baseline: **0% completion**
+- Best checkpoint: **30,720 training steps**
+
+Project repository:
+
+https://github.com/Akinladebammy/ppo-platformer-rl
+
+## Technologies
+
+### Software Engineering
+
+- C#
+- .NET / ASP.NET Core
+- JavaScript
+- TypeScript
+- React
+- Next.js
+- Node.js
+- REST APIs
+- PostgreSQL
+- MySQL
+
+### AI / Machine Learning
+
+- Python
+- Reinforcement Learning
+- Deep Reinforcement Learning
+- PPO
+- Gymnasium
+- Stable-Baselines3
+- PyTorch
+- YOLOv8
+
+### Tools
+
+- Git
+- GitHub
+- Jupyter
+- Matplotlib
+
+## Built With
+
+The portfolio itself is intentionally lightweight and built with:
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+No frontend framework is required.
+
+## Running Locally
+
+Clone the repository:
+
+```bash
+git clone YOUR-PORTFOLIO-REPOSITORY-URL
